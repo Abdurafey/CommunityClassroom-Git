@@ -1,0 +1,23 @@
+.......******************
+git init // initialize
+ls -a
+cd .git
+git status
+git add file.txt // for specific file to add
+git add . // to add all files in the folder
+git commit -m "all files added in prac2 directory"
+(use "git restore --staged <file>..." to unstage)
+git log // git add/ git commit details
+git stash // comit it later
+git stash pop // call it from backstage
+git stash clear // clear all backstage files now if i again run below command 
+git stash pop
+==> No stash entries found.
+
+********GITHUB************
+Create repository on github and then copy url to terminal and run below command 
+git remote add origin https://<github repository url> //adding url 
+
+git remote -v // show all url attached with the folder
+
+git push origin master // pushing local repository to github repository
